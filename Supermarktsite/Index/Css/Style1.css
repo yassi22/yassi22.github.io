@@ -1,0 +1,304 @@
+@charset "UTF-8";
+html {
+margin: 0px; 
+background-size: cover;
+background-repeat: no-repeat; 
+background-color:orange;
+} 
+
+span {
+text-align: center;
+}
+.heada {
+position: absolute;
+top: 0vh;
+left: -10vw;
+}
+.head {
+margin-top:1vh;
+font-family: 'Rubik', sans-serif;
+}
+
+.head h1 {
+margin: 0;
+}
+
+.head nav {
+text-align: center;
+}
+
+
+a:link, a:visited, a:active{
+color: white;
+}
+a:hover {
+color:#fc0303;
+}
+
+#example2 a {
+text-decoration: none;
+font-size: 28px;
+color: white;
+padding: 10px;
+background-color: rgb(89, 173, 20);
+font-family: 'Rubik', sans-serif;
+border-radius: 20px;
+
+}
+
+
+.Navgiate {
+text-align: center;
+}
+
+.inleidings {
+margin-left:20%;
+text-align: left;
+font-size: 22px;
+font-family: 'Rubik', sans-serif;
+color:green;
+width:600px;
+}
+.inleidings44 {
+margin-left:40%;
+text-align: left;
+font-size: 22px;
+font-family: 'Rubik', sans-serif;
+color:green;
+
+}
+
+.fotowinkel {
+margin-top: 2vw;
+margin-left: 550px;
+width:768px;
+height:384px; 
+border-radius: 10px;
+
+}
+
+.inleidings23 {
+text-align: center;
+font-family: 'Rubik', sans-serif;
+font-size: 28px;
+color:green;
+
+}
+
+.inleidings25 {
+margin-left:4%;
+text-align: left;
+font-size: 22px;
+font-family: 'Rubik', sans-serif;
+color:green;
+} 
+
+.team { 
+margin-left:700px;
+margin-top: 2vw;
+width:500px;
+height:344px;
+}
+
+h2 {
+font-family: 'Rubik', sans-serif;
+font-size: 28px;
+text-align: center;
+margin-top: 0vw;
+color:green;
+} 
+
+.news {
+text-align: center;
+font-family: 'Rubik', sans-serif;
+color:green;
+font-size: 35px;
+margin-top:2vw;
+}
+.plans {
+margin-left: 67%; 
+margin-top: -25%;
+border-radius: 10px;
+width:600px;
+height:433px;
+}
+
+.inleidings99 {
+margin-left: 32%;
+font-family: 'Rubik', sans-serif;
+font-size:25px;
+color:green;
+}
+
+.googlemaps { 
+margin-left: 35%; 
+margin-top:2%;
+border-radius: 10px;
+}
+
+.Achtground {
+height:400px;
+width: 100%;
+border-radius: 14px;
+margin-left:0;
+
+}
+#example2 a {
+text-decoration: none;
+font-size: 17px;
+color: white;
+padding: 10px;
+background-color: rgb(89, 173, 20);
+font-family: 'Rubik', sans-serif;
+border-radius: 20px;
+width:100%;
+display:inline-block; 
+box-sizing: border-box; 
+margin-top: 5px; 
+
+}
+.head {
+margin-top:2vh;
+font-family: 'Rubik', sans-serif;
+} 
+.fotowinkel {
+width:100%;
+border-radius: 10px;
+margin-left:0;
+
+}
+.inleidings44 {
+margin-left:5%;
+text-align: left;
+font-size: 18px;
+font-family: 'Rubik', sans-serif;
+color:green;
+
+}
+.inleidings99 {
+margin-left: 10%;
+font-family: 'Rubik', sans-serif;
+font-size:18px;
+color:green;
+width:350px;
+}
+.team { 
+text-align: center;
+margin-top: 2vw;
+width:100%;
+margin-left:0;
+}
+.googlemaps { 
+display: none;
+}
+.plans {
+display: none;
+}
+.inleidings25 {
+margin-left:6%;
+text-align: left;
+font-size: 16px;
+font-family: 'Rubik', sans-serif;
+color:green; 
+width:400px;
+} 
+.inleidings {
+margin-left:2%;
+text-align: left;
+font-size: 18px;
+font-family: 'Rubik', sans-serif;
+color:green; 
+width:400px;
+}
+
+
+
+
+
+@media only screen and (min-width: 1920px) {
+#telefoon {display:none;}
+#tablet {display:none;}
+#desktop {display:block;}
+
+
+}
+@media only screen and (min-width: 768px) {
+.Achtground {
+width: 100%;
+border-radius: 14px;
+margin-left:0;
+}
+#example2 a {
+text-decoration: none;
+font-size: 20px;
+color: white;
+padding: 10px;
+background-color: rgb(89, 173, 20);
+font-family: 'Rubik', sans-serif;
+border-radius: 20px; 
+width: auto;
+}
+.head {
+margin-top:2vh;
+font-family: 'Rubik', sans-serif;
+} 
+.fotowinkel {
+margin-top: 2vw;
+width:500px;
+border-radius: 10px; 
+margin-left:auto; 
+display:block;
+margin-right:auto; 
+
+
+}
+.inleidings44 {
+margin-left:auto;
+text-align: left;
+font-size: 18px;
+font-family: 'Rubik', sans-serif;
+color:green; 
+width:500px; 
+display:block;
+margin-right:auto; 
+}
+.inleidings99 {
+margin-left: 22%;
+font-family: 'Rubik', sans-serif;
+font-size:18px;
+color:green;
+width:450px; 
+margin: 0 auto; 
+
+}
+.team { 
+text-align: center;
+width:600px;
+display:block;
+margin: 20px auto 0; 
+}
+.googlemaps { 
+display: none;
+}
+.plans {
+display: none;
+}
+.inleidings25 {
+margin-left:16%;
+text-align: left;
+font-size: 20px;
+font-family: 'Rubik', sans-serif;
+color:green;
+width:550px; 
+margin:0 auto;
+} 
+.inleidings {
+margin-left:20%;
+text-align: left;
+font-size: 18px;
+font-family: 'Rubik', sans-serif;
+color:green;
+width:500px; 
+margin:0 auto;
+}
+} 

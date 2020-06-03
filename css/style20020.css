@@ -1,0 +1,250 @@
+ @charset "UTF-8";
+html {
+margin: 0px; 
+background-size: cover;
+background-repeat: no-repeat;   
+background-color: #161617; 
+scroll-behavior: smooth;
+
+}
+
+#item-navigatie{ 
+
+
+
+} 
+
+ul { 
+    text-align: center; 
+    list-style: none;    
+ 
+} 
+
+a{  
+    color: white; 
+    text-decoration: none; 
+    font-family: 'Roboto', sans-serif;    
+   margin:10px; 
+
+}  
+
+li { 
+    margin:10px; 
+    padding:10px; 
+    text-align: center; 
+    display: inline-block; 
+    float:right;
+}
+
+.test { 
+    height:100px;
+    width: 200px; 
+    border-radius: 4%; 
+    margin-top:0vh;
+    margin-left:1vw;
+} 
+
+
+@keyframes color-rotate { 
+    from { 
+        filter: hue-rotate(0deg) ;
+    } 
+    to { 
+        filter: hue-rotate(360deg)
+    }
+} 
+
+.test:hover { 
+animation: color-rotate 1s; 
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}  
+
+
+
+.teskt2  { 
+    text-align: left; 
+    margin-top:-28vh; 
+    margin-left:36vw;
+} 
+
+.teskt2 p { 
+    color:white; 
+    font-family: 'Roboto', sans-serif;   
+    font-size: 16px; 
+    width:400px; 
+    text-align: left;
+
+}  
+
+
+
+.teskt  { 
+    text-align: left; 
+    margin-top:vh; 
+    margin-left:40vw;
+}  
+
+
+
+.mijnhoofd { 
+    height:200px; 
+    width: 200px; 
+    border-radius: 50%; 
+    margin-left:45vw; 
+    margin-top:13vh;
+}
+  
+
+.teskt  p { 
+    color:white; 
+    font-family: 'Roboto', sans-serif;   
+    font-size: 30px; 
+    width:400px; 
+    text-align: left;
+
+}  
+
+
+
+.titel23 { 
+     color:white; 
+     font-family: 'Roboto', sans-serif;   
+     font-size: 30px;  
+     text-align: center;
+}
+
+.logomyself { 
+height:400px; 
+width: 400px;  
+border-radius: 2%; 
+margin-left:8vw; 
+margin-top:10vh;
+} 
+
+.fade-in-bottom
+{animation:fade-in-bottom .8s ease-in-out both 
+
+} 
+
+
+ @keyframes fade-in-bottom{0%{transform:translateY(50px);opacity:0}100%{transform:translateY(0);opacity:1}}
+
+ span.wave {
+    animation-name: wave-animation;    
+    animation-duration: 2.5s;          
+    animation-iteration-count: infinite;   
+    transform-origin: 70% 70%;        
+    display: inline-block;  
+    font-size:50px;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate(  0.0deg) }
+     10% { transform: rotate(-10.0deg) }    
+     20% { transform: rotate( 12.0deg) }
+     30% { transform: rotate(-10.0deg) }
+     40% { transform: rotate(  9.0deg) }
+     50% { transform: rotate(  0.0deg) }    
+    100% { transform: rotate(  0.0deg) }
+  } 
+ 
+
+  /* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 25%; 
+  background-color: #161617; 
+  border: black 2px solid;    
+  margin-left:68vw;  
+}  
+
+.skills {
+  text-align: right; 
+  padding-top: 8px;
+  padding-bottom: 8px; 
+  color: black;   
+}  
+a:hover { 
+color:#5623E2;
+}
+
+.okedan p { 
+color:white; 
+font-family: 'Roboto', sans-serif;     
+margin-left:66vw;
+}
+ 
+
+.okedan{ 
+    margin-top:-22vh; 
+}
+.html {
+width: 90%; 
+background-color: #B43387; 
+font-family: 'Roboto', sans-serif; 
+} 
+.css {
+width: 90%; 
+background-color: #F16D61; 
+font-family: 'Roboto', sans-serif; 
+} 
+.js {
+width: 70%; 
+background-color: #B43387; 
+font-family: 'Roboto', sans-serif; 
+}
+.php {
+width: 75%; 
+background-color: #F16D61; 
+font-family: 'Roboto', sans-serif; 
+} 
+
+.titel { 
+    font-size:25px;  
+    font-family: 'Roboto', sans-serif;      
+    color:white; 
+
+}   
+ 
+.rulethemall article {
+    display:inline-block; 
+    text-align: center; 
+     padding:10px;
+} 
+
+
+.rulethemall img {
+width:325px;
+height:325px; 
+border-radius: 5%;  
+
+}   
+
+.rulethemall p { 
+color:white; 
+font-family: 'Roboto', sans-serif;     
+font-size: 20px; 
+} 
+
+
+.rulethemall { 
+text-align: center;
+}  
+
+.titelvanpriject { 
+text-align: center; 
+font-size: 30px; 
+font-family: 'Roboto', sans-serif;      
+color:white; 
+} 
+
+
+
+
+
+
+
+
